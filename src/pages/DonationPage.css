@@ -1,0 +1,61 @@
+.donation-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .ngos-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ngo-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .ngo-item.selected {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+  }
+  
+  .donation-form {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stripe-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  .payment-status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+  }
+  

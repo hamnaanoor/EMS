@@ -1,0 +1,116 @@
+/* Chatbot Container */
+.chatbot-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-bottom: 30px;
+}
+
+.city-dropdown {
+    padding: 8px;
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.faq-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.faq-button:hover {
+    background-color: #0056b3;
+}
+
+/* FAQ List */
+.faq-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.faq-list li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.faq-list li strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.faq-list li p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Chat Section */
+.chat-section {
+    margin-top: 30px;
+}
+
+.chat-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.chat-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chat-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}
+
+/* Chatbot Response */
+.chat-response {
+    margin-top: 20px;
+    background-color: #e1f5fe;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+}
